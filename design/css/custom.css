@@ -1,0 +1,213 @@
+#testimonials-slider .details-holder .details-icon {
+background-color:#756de7;
+font-size:40px;
+color:#fff;
+height:90px;
+width:90px;
+border-radius:50px;
+margin-left:50%;
+margin-bottom:20px;}
+
+#testimonials-slider .details-holder .details-icon .fa{margin-top:25px;}
+
+#mini-slider .details-holder .icon-holder{
+position: relative;
+    padding-top: 60px;
+    padding-bottom: 30px;
+	}
+
+#mini-slider .details-holder .icon-holder .icon-bg {
+    position: absolute;
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+    left: 50%;
+    margin-left: -43px;
+    background-color: rgba(255, 255, 255, 0.16);
+    border-radius: 200px;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.3s cubic-bezier(0.34, 1.61, 0.7, 1);
+    transition: all 0.3s cubic-bezier(0.34, 1.61, 0.7, 1);
+}
+
+#mini-slider .details-holder .icon-holder .icon-bg:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 200px;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: all 0.7s cubic-bezier(0.34, 1.61, 0.7, 1);
+    transition: all 0.7s cubic-bezier(0.34, 1.61, 0.7, 1);
+}
+
+#mini-slider .details-holder .icon-holder .icon-bg:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 200px;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform: scale(2.3);
+    -moz-transform: scale(2.3);
+    -ms-transform: scale(2.3);
+    transform: scale(2.3);
+    -webkit-transition: all 0.5s cubic-bezier(0.34, 1.61, 0.7, 1);
+    transition: all 0.5s cubic-bezier(0.34, 1.61, 0.7, 1);
+}
+
+#mini-slider .details-holder .icon-holder .icon-bg:hover {
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+#mini-slider .details-holder .icon-holder .icon-bg:hover:before {
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+#mini-slider .details-holder .icon-holder .icon-bg:hover:after {
+    -webkit-transform: scale(2.1);
+    -moz-transform: scale(2.1);
+    -ms-transform: scale(2.1);
+    transform: scale(2.1);
+}
+
+#mini-slider .details-holder .icon-holder  .fa {
+    position: relative;
+    z-index: 10;
+    color: #ffffff;
+    font-size: 65px;
+    margin-top: 5px;
+    pointer-events: none;
+}
+
+#mini-slider .big-title {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+#h-info .custom_info_text {
+    font-size: 16px;
+}
+
+.company-info-holder .custom-holder p {
+    font-size: 17px;
+}
+
+#page-head .aicon .fa {
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: 16px;
+}
+
+.pricing-box{
+width:500px;
+}
+
+
+/* --------- POP-UP MODAL ------- */
+
+#myModal h2{
+	text-align:left;
+}
+
+#myModal p{
+	color:#fff;
+	text-align:left;
+	width:57%;
+	font-weight:bold;
+}
+
+#login-details input{
+	margin-top:20px;
+}
+
+#login-details .form-control {
+    display: block;
+    width: 55%;
+    height: 34px;
+    padding: 8px 20px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+#myModal .btn{
+	margin-left:-46%;
+	color:#fff;
+	font-weight:bold;
+	background-color:#E60067;
+}
+
+
+#footer .whatsapp {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin-top: -15px;
+    margin-left: -25px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+#footer .whatsapp .fa {
+    color: #ffffff;
+    font-size: 22px;
+    width: 20px;
+    margin-right: 7px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#footer .whatsapp a {
+    color: #ffffff;
+}
+
+#footer .whatsapp:hover {
+    background-color: #6159d1;
+    -webkit-box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}

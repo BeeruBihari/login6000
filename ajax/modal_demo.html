@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+
+<!--for electricity----->
+<div class="container">
+  
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">	Electricity</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Pay Your Electricity Bill</h4>
+        </div>
+        <div class="modal-body">
+           <div ng-app="">
+  <div>
+        <form action="#" method="post">
+         <div class=" form-group maxl">
+      <label class="radio inline"> 
+        <input type="radio" name="ele" value="boards" class="chng1 inp1" checked>
+        <span> Electricity Boards </span> 
+      </label>
+    
+</div>
+
+   
+	     <select name="speed1" id="electricity" class="sel1">
+		  <option selected>State</option>
+      <option>Andhra Pradesh</option>
+                                                              <option>Assam</option>
+                                                              <option>Bihar</option>
+															  <option>Chhattisgarh</option>
+                                                              <option>Gujarat</option>
+                                                              <option>Hariyana</option>
+															  <option>Jharkhand</option>
+                                                              <option>Karnataka</option>
+                                                              <option>Kerala</option>
+															  <option>Mathya Pradesh</option>
+                                                              <option>Maharastra</option>
+                                                              <option>Manipur</option>
+															  <option>Meghalaya</option>
+															  <option>New Delhi</option>
+                                                              <option>Odisha</option>
+                                                              <option>Punjab</option>
+															  <option>Telangana</option>
+															  <option>Uttar Pradesh</option>
+                                                              <option>Uttarakhand</option>
+                                                              <option>West Begal</option>
+    </select>
+     
+	  
+	
+	  
+	  
+	  <select name="speed2" id="board11" style="display:none;" class="sel1">
+		  <option selected>Electricity Board</option>
+	     <option>Andhra Pradesh</option>
+                                                              <option>Assam</option>
+                                                              <option>Bihar</option>
+															  <option>Chhattisgarh</option>
+                                                              <option>Gujarat</option>
+                                                              <option>Hariyana</option>
+															  <option>Jharkhand</option>
+                                                              <option>Karnataka</option>
+                                                              <option>Kerala</option>
+															  <option>Mathya Pradesh</option>
+                                                              <option>Maharastra</option>
+                                                              <option>Manipur</option>
+															  <option>Meghalaya</option>
+															  <option>New Delhi</option>
+                                                              <option>Odisha</option>
+                                                              <option>Punjab</option>
+															  <option>Telangana</option>
+															  <option>Uttar Pradesh</option>
+                                                              <option>Uttarakhand</option>
+                                                              <option>West Begal</option>
+				</select>
+															  
+	  
+     
+	  
+	  <div class="group cust" style="display:none;">
+	     <input type="text" class="inp1" name="cus_no" required>
+        <span class="highlight"></span>
+       <span class="bar"></span>
+       <label class="lbl1">Customer Number</label>
+	 </div>
+    
+	 
+       
+	    
+	  
+      <div class="_3BxH"><button class="_11kC  _15qf _2qE6">Proceed</button></div>
+    </form>
+  </div>
+</div>
+		 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+
+
+
+
+<!-------- For MoBILE------>
+
+<div class="container">
+  
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Mobile</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Mobile Recharge or Bill Payment</h4>
+        </div>
+        <div class="modal-body">
+           <div ng-app="">
+  <div>
+        <form action="#" method="post">
+         <div class="maxl">
+      <label class="radio inline"> 
+        <input type="radio" name="mobile" value="prepaid" class="chng1"checked>
+        <span> Prepaid </span> 
+      </label>
+     <label class="radio inline"> 
+      <input type="radio" name="mobile" value="postpaid" class="chng">
+      <span>Postpaid </span> 
+     </label>
+</div>
+       
+	  <div class="first">
+	   <div class="group">
+	     <input type="text" class="inp1" name="mob_no" required>
+         <span class="highlight"></span>
+         <span class="bar"></span>
+          <label class="lbl1">Mobile Number</label>
+      </div>
+	  
+	 <select name="speed" id="mob_cricle11" class="sel1">
+	  <option selected>Operator</option>
+      <option>Aircel</option>
+      <option>Airtel</option>
+      <option>BSNL</option>
+      <option>Idea</option>
+      <option>Jio</option>
+	  <option>MTNL</option>
+      <option>MTS</option>
+      <option>Reliance GSM</option>
+      <option>Reliance Mobile</option>
+      <option>Tata DOCOMO</option>
+	  <option>Tata iNDICOM</option>
+	  <option>Telenor</option>
+      <option>Vodafone</option>
+    </select>
+	  
+	  <div class="form-group mob_cricle" style="display:none;">
+	     <select name="speed1" id="" class="sel1">
+		  <option selected>Cricle</option>
+      <option>Andhra Pradesh</option>
+                                                              <option>Assam</option>
+                                                              <option>Bihar</option>
+															  <option>Chhattisgarh</option>
+                                                              <option>Gujarat</option>
+                                                              <option>Hariyana</option>
+															  <option>Jharkhand</option>
+                                                              <option>Karnataka</option>
+                                                              <option>Kerala</option>
+															  <option>Mathya Pradesh</option>
+                                                              <option>Maharastra</option>
+                                                              <option>Manipur</option>
+															  <option>Meghalaya</option>
+															  <option>New Delhi</option>
+                                                              <option>Odisha</option>
+                                                              <option>Punjab</option>
+															  <option>Telangana</option>
+															  <option>Uttar Pradesh</option>
+                                                              <option>Uttarakhand</option>
+                                                              <option>West Begal</option>
+    </select>
+      </div>
+	  
+	  <div class="group">
+	      <input type="text" class="inp1" name="amount" required>
+         <span class="highlight"></span>
+         <span class="bar"></span>
+          <label class="lbl1">Amount</label>
+      </div>
+	  
+	 <div class="checkbox">
+          <label>
+            <input type="checkbox" name='fast_rec' value="" id="chk11">
+            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+			<div>
+            <!--<i class="fa fa-forward" aria-hidden="true"></i>Fast Forward<br>
+			<span>Instant payment from your Paytm balance</span>-->
+			</div>
+          </label>
+        </div>
+	  
+      <div class="_3BxH"><button class="_11kC  _15qf _2qE6" id='proc'>Proceed To Recharge</button></div>
+	  
+	  <div class="_3BxH"><button class="_11kC  _15qf _2qE6" id="but11" style="display:none;">Recharge Now</button></div>
+    </form>
+  </div>
+  
+  
+  <div class="second" style="display:none;">
+	   <div class="group">
+	     <input type="text" class="inp1" name="mob_no" required>
+         <span class="highlight"></span>
+         <span class="bar"></span>
+          <label class="lbl1">Mobile Number</label>
+      </div>
+	  
+	 <select name="speed" id="speed123" class="sel1">
+	  <option selected>Operator</option>
+      <option>Aircel</option>
+      <option>Airtel</option>
+      <option>BSNL</option>
+      <option>Idea</option>
+      <option>Jio</option>
+	  <option>MTNL</option>
+      <option>MTS</option>
+      <option>Reliance GSM</option>
+      <option>Reliance Mobile</option>
+      <option>Tata DOCOMO</option>
+	  <option>Tata iNDICOM</option>
+	  <option>Telenor</option>
+      <option>Vodafone</option>
+    </select>
+	  
+	  <div class="form-group cricle1" style="display:none;">
+	     <select name="speed1" id="speed1" class="sel1">
+		  <option selected>Cricle</option>
+      <option>Andhra Pradesh</option>
+                                                              <option>Assam</option>
+                                                              <option>Bihar</option>
+															  <option>Chhattisgarh</option>
+                                                              <option>Gujarat</option>
+                                                              <option>Hariyana</option>
+															  <option>Jharkhand</option>
+                                                              <option>Karnataka</option>
+                                                              <option>Kerala</option>
+															  <option>Mathya Pradesh</option>
+                                                              <option>Maharastra</option>
+                                                              <option>Manipur</option>
+															  <option>Meghalaya</option>
+															  <option>New Delhi</option>
+                                                              <option>Odisha</option>
+                                                              <option>Punjab</option>
+															  <option>Telangana</option>
+															  <option>Uttar Pradesh</option>
+                                                              <option>Uttarakhand</option>
+                                                              <option>West Begal</option>
+    </select>
+      </div>
+	  
+	  <div class="group">
+	     <input type="text" class="inp1" name="amount"  required>
+         <span class="highlight"></span>
+         <span class="bar"></span>
+          <label class="lbl1">Amount</label>
+      </div>
+	  
+	 <div class="checkbox">
+          <label>
+            <input type="checkbox" name='fast_rec' value="" id="chk11">
+            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+			<div>
+            <i class="fa fa-forward" aria-hidden="true"></i>Fast Forward<br>
+			<span>Instant payment from your account balance</span>
+			</div>
+          </label>
+        </div>
+	  
+      <div class="_3BxH"><button class="_11kC  _15qf _2qE6" id='proc'>Proceed To Pay Bill</button></div>
+	  
+	  <div class="_3BxH"><button class="_11kC  _15qf _2qE6" id="but11" style="display:none;">Recharge Now</button></div>
+    </form>
+  </div>
+  
+  
+  
+</div>
+		 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+</div><br><br>
+
+
+<!------landline------>
+
+<div class="container">
+  
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">LandLine</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal3" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Pay Your Landline/Broadband Bill</h4>
+        </div>
+        <div class="modal-body">
+           <div ng-app="">
+             <div>
+           <form action="#" method="post">
+	         <select name="speed" id="landline11" class="sel1">
+	  <option selected>Operator</option>
+      <option>Aircel</option>
+      <option>Airtel</option>
+      <option>BSNL</option>
+      <option>Idea</option>
+      <option>Jio</option>
+	  <option>MTNL</option>
+      <option>MTS</option>
+      <option>Reliance GSM</option>
+      <option>Reliance Mobile</option>
+      <option>Tata DOCOMO</option>
+	  <option>Tata iNDICOM</option>
+	  <option>Telenor</option>
+      <option>Vodafone</option>
+    </select>
+	
+	   <div class="l11" style="display:none;">
+	      <div class="group">
+		  <input type="text" class="inp1" name="code"  required>
+         <span class="highlight"></span>
+         <span class="bar"></span>
+          <label class="lbl1">Number With STD Code</label>
+         </div>
+		 <div class="group">
+		   <input type="text" class="inp1" name="amount"  required>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label class="lbl1">Amount</label>
+         </div>
+		 
+		  <div class="checkbox">
+          <label>
+            <input type="checkbox" name='fast_rec1' value="" id="chk11">
+            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+			<div>
+            <!--<i class="fa fa-forward" aria-hidden="true"></i>Fast Forward<br>-->
+			
+			</div>
+          </label>
+        </div>
+		
+		
+	  
+	  <div class="_3BxH"><button class="_11kC  _15qf _2qE6" id="but12" style="display:none;">Pay Bill Now</button></div>
+		
+	   </div>
+			
+           <div class="_3BxH"><button class="_11kC  _15qf _2qE6" id="but13">Proceed</button></div>
+		   
+		   <div class="_2WAL"><!-- react-text: 1119 -->Your service provider will take two working days to consider bill paid in their accounts.<!-- /react-text --></div>
+	  
+        </form>
+     </div>
+   </div>
+		 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+
+<!-------datacard------->
+
+<div class="container">
+  
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal4">Datacard</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal4" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Datacard Recharge or Bill Payment</h4>
+        </div>
+        <div class="modal-body">
+           <div ng-app="">
+  <div>
+        <form action="#" method="post">
+         <div class="maxl">
+      <label class="radio inline datacard_but1"> 
+        <input type="radio" name="mobile" value="prepaid" checked>
+        <span> Prepaid </span> 
+      </label>
+     <label class="radio inline datacard_but11"> 
+      <input type="radio" name="mobile" value="postpaid">
+      <span>Postpaid </span> 
+     </label>
+</div>
+       
+	  <div class="fir1">
+	   <div class="group">
+	     <input type="text" class="inp1" name="datacard_no"  required>
+         <span class="highlight"></span>
+         <span class="bar"></span>
+          <label class="lbl1">Datacard Number</label>
+      </div>
+	  
+	  <div class="form-group">
+	     <select name="speed" id="datacard11" class="sel1">
+	  <option selected>Operator</option>
+      <option>Aircel</option>
+      <option>Airtel</option>
+      <option>BSNL</option>
+      <option>Idea</option>
+      <option>Jio</option>
+	  <option>MTNL</option>
+      <option>MTS</option>
+      <option>Reliance GSM</option>
+      <option>Reliance Mobile</option>
+      <option>Tata DOCOMO</option>
+	  <option>Tata iNDICOM</option>
+	  <option>Telenor</option>
+      <option>Vodafone</option>
+    </select>
+      </div>
+	  
+	  
+	 
+	  
+	  <div class="group" id="datacard1" style="display:none;">
+	    <input type="text" class="inp1" name="cricle"  required>
+         <span class="highlight"></span>
+         <span class="bar"></span>
+          <label class="lbl1">Cricle</label>
+      </div>
+	  
+	  <div class="group">
+	    <input type="text" class="inp1" name="amount"  required>
+         <span class="highlight"></span>
+         <span class="bar"></span>
+          <label class="lbl1">Amount</label>
+      </div>
+	  </div>
+	  
+	  
+	  <div class="sec1" style="display:none;">
+	   <div class="group">
+	     <input type="text" class="inp1" name="datacard_no"  required>
+         <span class="highlight"></span>
+         <span class="bar"></span>
+          <label class="lbl1">Datacard Number</label>
+      </div>
+	  
+	  <div class="form-group">
+	     <select name="speed" id="datacard_sec11" class="sel1">
+	  <option selected>Operator</option>
+      <option>Aircel</option>
+      <option>Airtel</option>
+      <option>BSNL</option>
+      <option>Idea</option>
+      <option>Jio</option>
+	  <option>MTNL</option>
+      <option>MTS</option>
+      <option>Reliance GSM</option>
+      <option>Reliance Mobile</option>
+      <option>Tata DOCOMO</option>
+	  <option>Tata iNDICOM</option>
+	  <option>Telenor</option>
+      <option>Vodafone</option>
+    </select>
+      </div>
+	  
+	  
+	 
+	  
+	  <div class="group" id="datacard_sec1" style="display:none;">
+	    <input type="text" class="inp1" name="cricle"  required>
+         <span class="highlight"></span>
+         <span class="bar"></span>
+          <label class="lbl1">Cricle</label>
+	    </div>
+	  
+	  <div class="group">
+	    <input type="text" class="inp1" name="amount"  required>
+         <span class="highlight"></span>
+         <span class="bar"></span>
+          <label class="lbl1">Amount</label>
+      </div>
+	</div>
+	  
+	  
+      <div class="_3BxH"><button class="_11kC  _15qf _2qE6">Proceed To Recharge</button></div>
+    </form>
+  </div>
+</div>
+		 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div><br><br>
+
+
+<!-------DTH ------------>
+
+  <div class="container">
+  
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal5">DTH</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal5" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">DTH Recharge</h4>
+        </div>
+        <div class="modal-body">
+           <div ng-app="">
+             <div>
+           <form action="#" method="post">
+	         <div class="form-group">
+	             <select name="speed" id="dth1" class="sel1">
+	  <option selected>Operator</option>
+      <option>Aircel</option>
+      <option>Airtel</option>
+      <option>BSNL</option>
+      <option>Idea</option>
+      <option>Jio</option>
+	  <option>MTNL</option>
+      <option>MTS</option>
+      <option>Reliance GSM</option>
+      <option>Reliance Mobile</option>
+      <option>Tata DOCOMO</option>
+	  <option>Tata iNDICOM</option>
+	  <option>Telenor</option>
+      <option>Vodafone</option>
+    </select>
+             </div>
+			 
+			 
+			 <div class="dth11" style="display:none;">
+			   <div class="group">
+			    <input type="text" class="inp1" name="smart"  required>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                 <label class="lbl1">Smart Card Number</label>
+              </div>
+		 <div class="group">
+		   <input type="text" class="inp1" name="amount"  required>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                 <label class="lbl1">Amount</label>
+         </div>
+		 
+		  <div class="checkbox">
+          <label>
+            <input type="checkbox" name='fast_rec2' value="" id="chk11">
+            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+			<div>
+           <!-- <i class="fa fa-forward" aria-hidden="true"></i>Fast Forward<br>-->
+			
+			</div>
+          </label>
+        </div>
+		
+		<div class="_3BxH"><button class="_11kC  _15qf _2qE6 dth_but" style="display:none">Recharge Now</button></div>
+			 
+			 </div>
+			
+           <div class="_3BxH"><button class="_11kC  _15qf _2qE6 dth_but1">Proceed To Recharge</button></div>
+		  
+        </form>
+     </div>
+   </div>
+		 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+<!--------------GAS---------------->
+
+
+<div class="container">
+  
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal6">Gas</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal6" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Pay Your Gas Bill</h4>
+        </div>
+        <div class="modal-body">
+           <div ng-app="">
+             <div>
+           <form action="#" method="post">
+	         <div class="form-group">
+	           <select name="speed" id="gas1" class="sel1">
+	             <option selected>Gas Provider</option>
+                <option>Adani Gas Limited</option>
+                <option>Indraprastha Gas Limited</option>
+                <option>Mahanagar Gas Mumbai</option>
+               <option>siti Energy Ltd</option>
+      
+              </select>
+             </div>
+			 
+			 <div class="gas11" style="display:none;">
+			     <div class="group">
+				   <input type="text" class="inp1" name="consumer"  required>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                 <label class="lbl1">Consumer Account Number</label>
+                 </div>
+				 
+				 <div class="_3BxH"><button class="_11kC  _15qf _2qE6 gas_but">Get Bill</button></div>
+	       </div>
+			
+           <div class="_3BxH"><button class="_11kC  _15qf _2qE6 gas_but1">Proceed</button></div>
+		   
+        </form>
+     </div>
+   </div>
+		 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+
+<!-----------BroadBand--------->
+
+<div class="container">
+  
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal7">BroadBand---------</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal7" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Pay Your Landline/Broadband Bill</h4>
+        </div>
+        <div class="modal-body">
+           <div ng-app="">
+             <div>
+           <form action="#" method="post">
+	         <div class="form-group">
+	            <select name="speed" id="broadband1" class="sel1">
+	  <option selected>Operator</option>
+      <option>Aircel</option>
+      <option>Airtel</option>
+      <option>BSNL</option>
+      <option>Idea</option>
+      <option>Jio</option>
+	  <option>MTNL</option>
+      <option>MTS</option>
+      <option>Reliance GSM</option>
+      <option>Reliance Mobile</option>
+      <option>Tata DOCOMO</option>
+	  <option>Tata iNDICOM</option>
+	  <option>Telenor</option>
+      <option>Vodafone</option>
+	  </select>
+             </div>
+			 
+			 
+			 <div class="broadband11" style="display:none;">
+			    <div class="group">
+				    <input type="text" class="inp1" name="account"  required>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                 <label class="lbl1">Account Number</label>
+                 </div>
+				 
+				 <div class="_3BxH"><button class="_11kC  _15qf _2qE6 broadband_but">Get Bill</button></div>
+			 </div>
+			
+           <div class="_3BxH"><button class="_11kC  _15qf _2qE6 broadband_but1">Proceed</button></div>
+		   
+		   
+        </form>
+     </div>
+   </div>
+		 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+<!------------water------------->
+
+<div class="container">
+  
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal8">Water</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal8" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Pay Your Water Bill</h4>
+        </div>
+        <div class="modal-body">
+           <div ng-app="">
+             <div>
+           <form action="#" method="post">
+	         <div class="form-group">
+	            <select name="speed" id="water1" class="sel1">
+	             <option selected>Gas Provider</option>
+                <option>Adani Gas Limited</option>
+                <option>Indraprastha Gas Limited</option>
+                <option>Mahanagar Gas Mumbai</option>
+               <option>siti Energy Ltd</option>
+      
+              </select>
+             </div>
+			 
+			 <div class="water11" style="display:none;">
+			     <div class="group">
+				    <input type="text" class="inp1" name="consumer"  required>
+                 <span class="highlight"></span>
+                 <span class="bar"></span>
+                 <label class="lbl1">Consumer Number</label>
+                 </div>
+				 
+				 <div class="_3BxH"><button class="_11kC  _15qf _2qE6 water_but">Get Bill</button></div>
+			 </div>
+			
+           <div class="_3BxH"><button class="_11kC  _15qf _2qE6 water_but1">Proceed</button></div>
+		   
+        </form>
+     </div>
+   </div>
+		 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+
+<!-----insurance------>
+
+<div class="container">
+  
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal10">Insurance</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal10" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Pay Your Insurance Premium</h4>
+        </div>
+        <div class="modal-body">
+           <div ng-app="">
+             <div>
+           <form action="#" method="post">
+	         <div class="form-group">
+	             <select name="speed" id="insurance1" class="sel1">
+	             <option selected>Insurer</option>
+                <option>Aegon Life Insurance</option>
+                <option>Bharti AXA Life Insurance</option>
+                <option>Birla Sun Life Insurance</option>
+               <option>Edelweiss Tokio Life Insurance</option>
+			   <option>Future Generali India Life Insurance</option>
+                <option>HDFC Ergo General Insurance</option>
+                <option>ICICI Lombard Insurance</option>
+               <option>ICICI Pradential Life Insurance</option>
+			   <option>IDBI Federal Life Insurance</option>
+			   <option>India First Life Insurance</option>
+			   <option>Max Life Insurance</option>
+      
+              </select>
+             </div>
+			 
+			 <div class="insurance11" style="display:none;">
+			     <div class="group">
+				    <input type="text" class="inp1" name="policy"  required>
+                 <span class="highlight"></span>
+                 <span class="bar"></span>
+                 <label class="lbl1">Policy Number</label>
+                 </div>
+				 
+				  <div class="_3BxH"><button class="_11kC  _15qf _2qE6 insurance_but">Get Premium</button></div>
+			 </div>
+			
+           <div class="_3BxH"><button class="_11kC  _15qf _2qE6 insurance_but1">Proceed To Pay</button></div>
+		   
+		   <!--<div class="_2WAL">Your service provider will take two working days to consider bill paid in their accounts, the premium payment date will be effective immediately</div>-->
+	  
+        </form>
+     </div>
+   </div>
+		 
+        </div>
+        <div class="modal-footer" style="padding:7px;">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>
+
+<style>
+
+.checkbox label:after, 
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+}
+
+.radio .cr {
+    border-radius: 50%;
+}
+
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+.radio .cr .cr-icon {
+    margin-left: 0.04em;
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+    display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.radio label input[type="radio"] + .cr > .cr-icon {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.radio label input[type="radio"]:checked + .cr > .cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled + .cr,
+.radio label input[type="radio"]:disabled + .cr {
+    opacity: .5;
+}
+ ._2WAL {
+    font-size: 12px;
+    padding: 5px;
+    margin: 10px 0 0;
+    background: #ebebeb;
+} 
+
+
+
+._2qE6 {
+    font-size: 16px;
+    padding: 15px 20px;
+}
+
+._15qf {
+    background: #00b9f5;
+    color: #fff;
+}
+
+._11kC {
+   cursor: pointer;
+   width: 100%;
+    margin: 0;
+    text-align: center;
+    border-width: 0;
+    font-weight: 600;
+}
+
+.maxl{
+  margin-top:25px ;
+  margin-bottom:25px ;
+  margin-left:15px;
+}
+.inline{
+  display: inline-block;
+}
+
+.radio{
+  color:#999;
+  font-size:17px;
+  position:relative;
+}
+.radio span{
+  position:relative;
+   padding-left:20px;
+}
+.inline + .inline {
+    margin-left: 40px;
+}
+.radio span:after{
+  content:'';
+  width:15px;
+  height:15px;
+  border:3px solid;
+  position:absolute;
+  left:0;
+  top:1px;
+  border-radius:100%;
+  -ms-border-radius:100%;
+  -moz-border-radius:100%;
+  -webkit-border-radius:100%;
+  box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+.radio input[type="radio"]{
+   cursor: pointer; 
+  position:absolute;
+  width:100%;
+  height:100%;
+  z-index: 1;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+}
+.radio input[type="radio"]:checked + span{
+  color:#00b9f5;  
+}
+.radio input[type="radio"]:checked + span:before{
+    content:'';
+  width:5px;
+  height:5px;
+  position:absolute;
+  background:#0B8;
+  left:5px;
+  top:6px;
+  border-radius:100%;
+  -ms-border-radius:100%;
+  -moz-border-radius:100%;
+  -webkit-border-radius:100%;
+}
+
+.group        
+{ 
+  position:relative; 
+ 
+  margin-left: 5px;
+}
+.inp1         {
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+ 
+  border:none;
+  border-bottom:1px solid #00b9f5;
+
+  padding:0.5em;
+   margin: 30px 8px;
+  width: 92%;
+}
+.inp1:focus     { outline:none; }
+
+.lbl1          {
+  color:#00b9f5; 
+  font-size:14px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:23px;
+  top:10px;
+  transition:0.2s ease all; 
+}
+
+/* active state */
+.inp1:focus ~ label, .inp1:valid ~ label     {
+  top:-20px;
+  font-size:14px;
+  color:#00b9f5;
+}
+.bar  { position:relative; display:block; width:0%; }
+.bar:before, .bar:after   {
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#00b9f5; 
+  transition:0.2s ease all; 
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%; 
+}
+
+/* active state */
+.inp1:focus ~ .bar:before, .inp1:focus ~ .bar:after {
+  width:50%;
+}
+/*.highlight {
+  position:absolute;
+  height:60%; 
+  width:100px; 
+  top:25%; 
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}*/
+
+/* active state */
+.inp1:focus ~ .highlight {
+  //animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ 
+@keyframes inputHighlighter {
+  from  { background:#00b9f5; }
+  to    { width:0; background:transparent; }
+}
+*/
+.sel1 {
+  
+  padding:1em;
+  margin: 30px 8px;
+  width: 92%;
+  display: block;
+  border: none;
+  
+  border-bottom: solid 1px #00b9f5;
+  -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 100%, #00b9f5);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 100%, #00b9f5);
+  background-position: -200px 0;
+  background-size: 200px 100%;
+  background-repeat: no-repeat;
+  color: #00b9f5;
+}
+.sel1:focus, input:valid {
+ box-shadow: none;
+ outline: none;
+ background-position: 0 0;
+}
+.sel1 option
+{
+  color:black;
+  padding:10px;
+}
+
+
+</style>
+
+<script>
+$(document).ready(function(){
+    $(".in11").click(function(){
+        $(".list11").show();
+    });
+   
+});
+</script>
+
+
+<script>
+$('#mob_cricle11').on('change', function() {
+  $(".mob_cricle").show();
+  
+})
+</script>
+
+<script>
+$('#speed123').on('change', function() {
+  $(".cricle1").show();
+  
+})
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	
+	$('input[name="fast_rec"]').on('click', function(){
+    if ( $(this).is(':checked') ) {
+        $('#proc').hide(),
+		$('#but11').show();
+    } 
+    else {
+        $('#proc').show(),
+		$('#but11').hide();
+    }
+});
+
+	
+});
+
+
+</script> 
+
+<script type="text/javascript">
+$(document).ready(function() {
+	
+	$('input[name="fast_rec1"]').on('click', function(){
+    if ( $(this).is(':checked') ) {
+        $('#but12').hide(),
+		$('#but13').show();
+    } 
+    else {
+        $('#but12').show(),
+		$('#but13').hide();
+    }
+});
+
+	
+});
+
+
+</script>  
+
+<script type="text/javascript">
+$(document).ready(function() {
+	
+	$('input[name="fast_rec2"]').on('click', function(){
+    if ( $(this).is(':checked') ) {
+        $('.dth_but1').hide(),
+		$('.dth_but').show();
+    } 
+    else {
+        $('.dth_but1').show(),
+		$('.dth_but').hide();
+    }
+});
+
+	
+});
+
+
+</script>    
+  
+<script>
+  $(document).ready(function() {
+    $('.chng').change(function() {
+       $('.first').hide(),
+	   $('.second').show();
+    });
+});
+</script> 
+
+<script>
+  $(document).ready(function() {
+    $('.chng1').change(function() {
+       $('.first').show(),
+	   $('.second').hide();
+    });
+});
+</script> 
+
+<script>
+$('#electricity').on('change', function() {
+  $("#board11").show(),
+  $(".cust").show();
+  
+})
+</script>
+
+<script>
+$('#electricity').on('change', function() {
+  $("#board11").show(),
+  $(".cust").show();
+  
+})
+</script>
+
+<script>
+$('#gas1').on('change', function() {
+  $(".gas11").show(),
+  $(".gas_but").show(),
+  $(".gas_but1").hide();
+  
+})
+</script>
+
+<script>
+$('#water1').on('change', function() {
+  $(".water11").show(),
+  $(".water_but").show(),
+  $(".water_but1").hide();
+  
+})
+</script>
+
+<script>
+$('#insurance1').on('change', function() {
+  $(".insurance11").show(),
+  $(".insurance_but").show(),
+  $(".insurance_but1").hide();
+  
+})
+</script>
+
+<script>
+$('#broadband1').on('change', function() {
+  $(".broadband11").show(),
+  $(".broadband_but").show(),
+  $(".broadband_but1").hide();
+  
+})
+</script>
+
+<script>
+$('#datacard11').on('change', function() {
+  $("#datacard1").show();
+})
+</script>
+
+<script>
+$('#datacard_sec11').on('change', function() {
+  $("#datacard_sec1").show();
+})
+</script>
+
+
+<script>
+$('#landline11').on('change', function() {
+  $(".l11").show();
+  
+})
+</script>
+
+<script>
+$('#dth1').on('change', function() {
+  $(".dth11").show();
+  
+  
+})
+</script>
+
+<script>
+  $(document).ready(function() {
+    $('.datacard_but1').change(function() {
+       $('.fir1').hide(),
+	   $('.sec1').show();
+    });
+});
+</script> 
+
+<script>
+  $(document).ready(function() {
+    $('.datacard_but11').change(function() {
+       $('.fir1').show(),
+	   $('.sec1').hide();
+    });
+});
+</script> 
+<script>
+$(document).ready(function() {
+
+  $('.inp1').blur(function() {
+
+    // check if the input has any value (if we've typed into it)
+    if ($(this).val())
+      $(this).addClass('used');
+    else
+      $(this).removeClass('used');
+  });
+
+});
+</script>
+

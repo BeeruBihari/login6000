@@ -1,0 +1,5 @@
+[26-Nov-2017 10:49:55 UTC] PHP Notice:  Undefined index: amount_elec in /home/bizzweb/kpagent/ajax/elec/index.php on line 9
+[21-Dec-2017 18:44:30 UTC] PHP Notice:  Undefined index: ele_board in /home/bizzweb/kpagent/ajax/elec/index.php on line 7
+[21-Dec-2017 18:44:30 UTC] PHP Notice:  Undefined index: customer_number in /home/bizzweb/kpagent/ajax/elec/index.php on line 8
+[21-Dec-2017 18:44:30 UTC] PHP Notice:  Undefined index: amount_elec in /home/bizzweb/kpagent/ajax/elec/index.php on line 9
+[21-Dec-2017 18:44:30 UTC] PHP Notice:  Undefined index: account_elec in /home/bizzweb/kpagent/ajax/elec/index.php on line 10
