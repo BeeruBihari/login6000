@@ -1,4 +1,6 @@
 <?php
+
+echo "its index.php";
 date_default_timezone_set("Asia/Calcutta");
 
 $action = (!empty($_GET['action'])) ? $_GET['action'] : "index";
@@ -6,15 +8,16 @@ $ss__path = realpath(dirname(__FILE__));
 define('SITE_PATH', $ss__path);
 require_once "include/base.php";
 $o__admin = new admin();
-     $url =  $_SERVER["HTTP_HOST"];
+$url =  $_SERVER["HTTP_HOST"];
 $uell = explode(".",$url);
 $getdata = $o__admin->getdatabyurl('http://'.$uell[1].'.'.$uell[2]);
 require_once "action/" . ACTION . ".action.php";
-echo 'sdkjfh';
 
+echo "starting wokring chcking for authumtication ";
 if ($master->isAuthenticated() && $action != "apoinmentview") {
-    
+    echo "master authenticated and action is apoinmentview.. now checking ffor action != index";
     if($action != "index"){
+        echo "action is not qual to .index";
         include FASection . DS . "header_css.php";
         
         if($_GET['app']=='mobile'):
@@ -29,12 +32,14 @@ if ($master->isAuthenticated() && $action != "apoinmentview") {
         
         
     }else{
+        echo "acition is == index";
         include FASection . DS . "header_css.php";
-    include FASection . DS . "header.php";
+        include FASection . DS . "header.php";
     }
 } else {
+    echo "master authnatication failed lodign login page";
     include FASection . DS . "header_login.php";
-    //echo FASection . DS . "header_login.php";
+    echo FASection . DS . "header_login.php";
 }
 
 include FAtemplate . DS . ACTION . DS . $action . ".kpr.php";
